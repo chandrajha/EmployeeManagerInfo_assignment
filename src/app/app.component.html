@@ -1,0 +1,13 @@
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Demo-App</span>
+
+    <span class="example-spacer"></span>
+    <button mat-button [routerLink]="['employee-detail']">Employee</button>
+    <button mat-button [routerLink]="['manager']">Manager</button>
+    <button mat-button>Contact</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
